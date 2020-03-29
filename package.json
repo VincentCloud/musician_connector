@@ -1,0 +1,32 @@
+{
+  "name": "musician_connector",
+  "version": "1.0.0",
+  "description": "A platform that shows the profile of musicians and help them establish a network over social media",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentCloud/musician_connector.git"
+  },
+  "author": "Vincent Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VincentCloud/musician_connector/issues"
+  },
+  "homepage": "https://github.com/VincentCloud/musician_connector#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+ }
