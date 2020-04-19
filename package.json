@@ -4,7 +4,8 @@
   "description": "A platform that shows the profile of musicians and help them establish a network over social media",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "prettier": "prettier --write \"./**/*.{js,jsx,json}\""
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,9 @@
     "validator": "^13.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.2",
+    "prettier": "2.0.4"
   }
 }
